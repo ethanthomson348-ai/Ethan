@@ -45,6 +45,10 @@ body {
     height: 50px;
 }
 
+#link-container {
+    display:  flex;
+    justify-content: center;
+}
 .link { 
     background-color: rgb(251, 255, 0);
     height: 20px;
