@@ -46,8 +46,8 @@ body {
 }
 
 .link { 
-    background-color: black;
-    height: 100px;
+    background-color: rgb(251, 255, 0);
+    height: 20px;
     width: 100px;
     border: 2px;
 }
