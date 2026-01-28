@@ -46,7 +46,9 @@ body {
 
     .link{ 
      background-color: black;
-     
+     height: 100px;
+     width: 100px;
+     border: 2px;
     }
 
 
