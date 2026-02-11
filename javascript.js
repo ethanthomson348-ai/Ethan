@@ -3,7 +3,7 @@ let imageNumber = 0
 
 function nextimage () {
     imageNumber++;
-    if (imageNumber > [...images].length) imageNumber = 0;
+    if (imageNumber > [...images].length - 1) imageNumber = 0;
     images[imageNumber].scrollIntoView ({behavior: "smooth", block: "start", inline: "nearest"});
 };
 
